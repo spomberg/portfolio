@@ -8,8 +8,8 @@
     position: relative;
     top: 70px;
     scroll-snap-type: y mandatory;
-    scrollbar-width: none;
-    &::-webkit-scrollbar{
+    scrollbar-width: none; // for firefox
+    &::-webkit-scrollbar{ // other browsers
       display: none;
     }
 
