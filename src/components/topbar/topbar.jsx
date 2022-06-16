@@ -9,7 +9,7 @@ export default function Topbar() {
           <a href='#intro' className='logo'>logo</a>
           <div className='itemContainer'>
             <Email/>
-            <span>marcosspomberg@gmail.com</span>
+            <a href='mailto:marcosspomberg@gmail.com'>marcosspomberg@gmail.com</a>
           </div>
           <div className='itemContainer'>
             <Phone/>
