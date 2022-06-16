@@ -16,12 +16,30 @@
     justify-content: space-between;
 
     .left{
+      display: flex;
 
       .logo{
         font-size: 40px;
         font-weight: 700;
         text-decoration: none;
         color: inherit;
+        margin-right: 4rem;
+      }
+
+      .itemContainer{
+        display: flex;
+        align-items: center;
+        margin-left: 1.2rem;
+
+        a{
+          margin-left: 0.7rem;
+          text-decoration: none;
+          color: inherit;
+        }
+
+        span{
+          margin-left: 0.7rem;
+        }
       }
     }
   }
