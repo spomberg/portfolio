@@ -3,7 +3,7 @@ import { Email, Phone, Menu, Close } from '@material-ui/icons';
 
 export default function Topbar() {
   return (
-    <div className='topbar'>
+    <div className='topbar active'>
       <div className='wrapper'>
         <div className='left'>
           <a href='#intro' className='logo'>logo</a>
@@ -18,8 +18,8 @@ export default function Topbar() {
         </div>
         <div className='right'>
           <div className='hamburguer'>
-            <Menu className='icon'/>
-            <Close className='icon'/>
+            <Menu className='menuIcon'/>
+            <Close className='closeIcon'/>
           </div>
         </div>
       </div>
