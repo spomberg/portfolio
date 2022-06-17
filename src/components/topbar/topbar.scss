@@ -37,9 +37,47 @@
           color: inherit;
         }
 
+        .icon{
+          font-size: 100px;
+        }
+
         span{
           margin-left: 0.7rem;
         }
+      }
+    }
+  }
+
+  .right{
+
+    .hamburguer{
+      
+      .menuIcon{
+        font-size: 30px;
+        cursor: pointer;
+        animation: fade1 1s linear;
+      }
+
+      .closeIcon{
+        font-size: 30px;
+        display: none;
+      }
+    }
+  }
+
+  &.active{
+    background-color: $mainColor;
+    color: white;
+
+    .hamburguer{
+
+      .menuIcon{
+        display: none;
+      }
+
+      .closeIcon{
+        display: flex;
+        animation: fade1 1s linear;
       }
     }
   }
