@@ -1,6 +1,6 @@
 @import "../../global.scss";
 
-.topbar{
+.topbar {
   width: 100%;
   height: 70px;
   background-color: white;
@@ -10,16 +10,16 @@
   z-index: 3;
   transition: all 1s ease;
 
-  .wrapper{
+  .wrapper {
     display: flex;
     align-items: center;
     padding: 10px 30px;
     justify-content: space-between;
 
-    .left{
+    .left {
       display: flex;
 
-      .logo{
+      .logo {
         font-size: 40px;
         font-weight: 700;
         text-decoration: none;
@@ -27,55 +27,43 @@
         margin-right: 4rem;
       }
 
-      .itemContainer{
+      .itemContainer {
         display: flex;
         align-items: center;
         margin-left: 1.2rem;
 
-        a{
+        a {
           margin-left: 0.7rem;
           text-decoration: none;
           color: inherit;
         }
 
-        .icon{
-          font-size: 100px;
-        }
-
-        span{
+        span {
           margin-left: 0.7rem;
         }
       }
     }
   }
 
-  .right{
+  .right {
 
-    .hamburguer{
+    .hamburguer {
       overflow: hidden;
       
-      .menuIcon{
+      .menuIcon {
         font-size: 30px;
         cursor: pointer;
-        transition: transform 250ms;
-
-        &:hover{
-          transform: scale(1.25, 1.25)
-        }
-
-        &:active{
-          transform: scale(0, 0);
-        }
+        @include menuIconAnimation;
       }
 
-      .closeIcon{
+      .closeIcon {
         font-size: 30px;
         display: none;
       }
     }
   }
 
-  &.active{
+  &.active {
     background-color: $mainColor;
     color: white;
 
@@ -88,15 +76,7 @@
       .closeIcon{
         display: flex;
         cursor: pointer;
-        transition: transform 250ms;
-
-        &:hover{
-          transform: scale(1.25, 1.25);
-        }
-
-        &:active{
-          transform: scale(0, 0);
-        }
+        @include menuIconAnimation;
       }
     }
   }
