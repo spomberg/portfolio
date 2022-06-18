@@ -29,5 +29,44 @@
   
   .right {
     flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+
+    
+    .wrapper {
+      font-size: xx-large;
+      display: flex;
+      flex-direction: column;
+      
+      h2 {
+        margin-bottom: 1rem;
+        font-weight: 500;
+      }
+  
+      h1 {
+        margin-bottom: 1rem;
+      }
+  
+      h3 {
+        font-weight: 500;
+      }
+    }
+
+    a {
+      position: absolute;
+      bottom: -2%;
+      color: inherit;
+      left: 35%;
+
+      .downArrow {
+        font-size: 5rem;
+        font-weight: 100;
+      }
+    }
+
   }
 }
