@@ -1,1 +1,13 @@
 $mainColor: #15023a;
+
+@mixin menuIconAnimation {
+  transition: transform 250ms;
+
+  &:hover {
+    transform: scale(1.25, 1.25);
+  }
+
+  &:active {
+    transform: scale(0, 0);
+  }
+}
