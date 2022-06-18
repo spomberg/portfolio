@@ -1,12 +1,12 @@
 @import "../../global.scss";
 
 .menu{
-  width: 22rem;
+  width: 25rem;
   height: 100vh;
   background-color: $mainColor;
   position: fixed;
   top: 0;
-  right: -22rem;
+  right: -25rem;
   z-index: 2;
   display: flex;
   flex-direction: column;
@@ -16,5 +16,25 @@
 
   &.active{
     right: 0;
+  }
+
+  ul {
+    list-style: none;
+    font-weight: 300;
+    width: 70%;
+
+    li{
+      margin-bottom: 2.5em;
+
+      a{
+        color: white;
+        text-decoration: none;
+        font-size: 4rem;
+
+        &:hover{
+          font-weight: 400;
+        }
+      }
+    }
   }
 }
