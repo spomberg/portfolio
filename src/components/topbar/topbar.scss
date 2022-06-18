@@ -52,6 +52,7 @@
   .right{
 
     .hamburguer{
+      overflow: hidden;
       
       .menuIcon{
         font-size: 30px;
@@ -90,7 +91,7 @@
         transition: transform 250ms;
 
         &:hover{
-          transform: scale(1.25, 1.25)
+          transform: scale(1.25, 1.25);
         }
 
         &:active{
