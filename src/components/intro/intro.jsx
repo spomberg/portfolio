@@ -6,7 +6,7 @@ export default function Intro() {
     <div className='intro' id='intro'>
       <div className='left'>
         <div className='imgContainer'>
-          <img src="assets/profile-image.png" alt="" />
+          <img src="assets/profile-image.png" alt="profile" />
         </div>
       </div>
       <div className='right'>
@@ -16,7 +16,7 @@ export default function Intro() {
           <h3>Web Developer</h3>
         </div>
         <a href="#portfolio">
-          <KeyboardArrowDown />
+          <KeyboardArrowDown className="downArrow" />
         </a>
       </div>
     </div>
