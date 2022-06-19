@@ -1,13 +1,14 @@
 import './intro.scss'
 import { KeyboardArrowDown } from '@material-ui/icons';
 import Typewriter from 'typewriter-effect';
+import profile from '../../assets/images/profile-image.png'
 
 export default function Intro() {
   return (
     <div className='intro' id='intro'>
       <div className='left'>
         <div className='imgContainer'>
-          <img src="assets/profile-image.png" alt="profile" />
+          <img src={profile} alt="profile" />
         </div>
       </div>
       <div className='right'>
