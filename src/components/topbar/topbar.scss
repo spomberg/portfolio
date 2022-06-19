@@ -29,24 +29,24 @@
       }
 
       .itemContainer {
+        align-items: center;
         font-size: large;
         display: flex;
         align-items: center;
         margin-left: 2rem;
-
-        .cv {
+        
+        .topbarIcon {
           font-weight: bold;
+          margin-right: 1rem;
         }
-
+        
         a {
+          display: flex;
           margin-left: 0.7rem;
           text-decoration: none;
           color: inherit;
         }
 
-        span {
-          margin-left: 0.7rem;
-        }
       }
     }
   }

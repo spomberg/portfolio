@@ -8,23 +8,29 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         <div className='left'>
           <a href='#intro' className='logo'>MS</a>
           <div className='itemContainer'>
-            <GitHub/>
-            <a href='https://github.com/spomberg' target="_blank" rel="noreferrer">/spomberg</a>
+            <a href='https://github.com/spomberg' target="_blank" rel="noreferrer">
+              <GitHub className='topbarIcon'/>/spomberg
+            </a>
           </div>
           <div className='itemContainer'>
-            <LinkedIn/>
-            <a href='https://linkedin.com/in/marcos-spomberg' target="_blank" rel="noreferrer">/marcos-spomberg</a>
+            <a href='https://linkedin.com/in/marcos-spomberg' target="_blank" rel="noreferrer">
+              <LinkedIn className='topbarIcon'/>/marcos-spomberg
+            </a>
           </div>
           <div className='itemContainer'>
-            <span className='cv'>CV</span>
-            <a href='https://resume.creddle.io/resume/ficw6ujhr3l' target="_blank" rel="noreferrer">Resume</a>
+            <a href='https://resume.creddle.io/resume/ficw6ujhr3l' target="_blank" rel="noreferrer">
+              <span className='topbarIcon'>CV</span>
+              Resume
+            </a>
           </div>
           <div className='itemContainer'>
-            <Email/>
-            <a href='mailto:marcosspomberg@gmail.com'>marcosspomberg@gmail.com</a>
+            <a href='mailto:marcosspomberg@gmail.com'>
+              <Email className='topbarIcon'/>
+              marcosspomberg@gmail.com
+            </a>
           </div>
           <div className='itemContainer'>
-            <Phone/>
+            <Phone className='topbarIcon'/>
             <span>647-807-9640</span>
           </div>
         </div>
