@@ -18,7 +18,7 @@ export default function Intro() {
           <h3>
             <Typewriter
                 onInit={(typewriter) => {
-                  typewriter.typeString('Web Developer')
+                  typewriter.typeString('Full-Stack Web Developer')
                     .start();
                 }}
             />
