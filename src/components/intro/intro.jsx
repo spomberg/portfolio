@@ -1,5 +1,6 @@
 import './intro.scss'
 import { KeyboardArrowDown } from '@material-ui/icons';
+import Typewriter from 'typewriter-effect';
 
 export default function Intro() {
   return (
@@ -13,7 +14,14 @@ export default function Intro() {
         <div className='wrapper'>
           <h2>Hi, there, I'm</h2>
           <h1>Marcos Spomberg</h1>
-          <h3>Web Developer</h3>
+          <h3>
+            <Typewriter
+                onInit={(typewriter) => {
+                  typewriter.typeString('Web Developer')
+                    .start();
+                }}
+            />
+          </h3>
         </div>
         <a href="#portfolio">
           <KeyboardArrowDown className="downArrow" />
