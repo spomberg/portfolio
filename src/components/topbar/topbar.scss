@@ -29,9 +29,14 @@
       }
 
       .itemContainer {
+        font-size: large;
         display: flex;
         align-items: center;
-        margin-left: 1.2rem;
+        margin-left: 2rem;
+
+        .cv {
+          font-weight: bold;
+        }
 
         a {
           margin-left: 0.7rem;
@@ -52,13 +57,13 @@
       overflow: hidden;
       
       .menuIcon {
-        font-size: 30px;
+        font-size: xx-large;
         cursor: pointer;
         @include menuIconAnimation;
       }
 
       .closeIcon {
-        font-size: 30px;
+        font-size: xx-large;
         display: none;
       }
     }

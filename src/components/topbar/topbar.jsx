@@ -1,5 +1,5 @@
 import './topbar.scss'
-import { Email, Phone, Menu, Close } from '@material-ui/icons';
+import { GitHub, LinkedIn, Email, Phone, Menu, Close } from '@material-ui/icons';
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -7,6 +7,18 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
       <div className='wrapper'>
         <div className='left'>
           <a href='#intro' className='logo'>MS</a>
+          <div className='itemContainer'>
+            <GitHub/>
+            <a href='https://github.com/spomberg' target="_blank" rel="noreferrer">/spomberg</a>
+          </div>
+          <div className='itemContainer'>
+            <LinkedIn/>
+            <a href='https://linkedin.com/in/marcos-spomberg' target="_blank" rel="noreferrer">/marcos-spomberg</a>
+          </div>
+          <div className='itemContainer'>
+            <span className='cv'>CV</span>
+            <a href='https://resume.creddle.io/resume/ficw6ujhr3l' target="_blank" rel="noreferrer">Resume</a>
+          </div>
           <div className='itemContainer'>
             <Email/>
             <a href='mailto:marcosspomberg@gmail.com'>marcosspomberg@gmail.com</a>
