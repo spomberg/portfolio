@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .intro {
   background-color: white;
   display: flex;
@@ -10,7 +12,7 @@
     
     .imgContainer{
       display: flex;
-      background-color: crimson;
+      background-color: rgb(181, 53, 78);
       border-radius: 50%;
       height: 115%;
       position: relative;
@@ -58,13 +60,14 @@
 
     a {
       position: absolute;
-      bottom: -2%;
+      bottom: -1%;
       color: inherit;
       left: 35%;
 
       .downArrow {
         font-size: 5rem;
         font-weight: 100;
+        animation: float 3s ease-in-out infinite;
       }
     }
 
