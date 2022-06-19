@@ -1,3 +1,8 @@
+export const aboutMe = {
+  text: "Full-Stack Web Developer transitioning from the Customer Service and Marketing Industry. Enjoys programming and developing apps that are useful, easy to navigate and offer unique solutions to common problems.",
+  skills: "JavaScript, HTML5, CSS, SASS, React.JS, Node.JS, Ruby/Rails, JQuery, Ajax, PostgreSQL, Git, Bootstrap, Jest, Cypress, Storybook"
+}
+
 export const featuredPortfolio = [
     {
       id: 1,
