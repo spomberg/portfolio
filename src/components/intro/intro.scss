@@ -37,7 +37,6 @@
     justify-content: center;
     position: relative;
     overflow: hidden;
-
     
     .wrapper {
       font-size: xx-large;
@@ -61,9 +60,10 @@
 
     a {
       position: absolute;
-      bottom: -1%;
+      bottom: 0%;
       color: inherit;
       left: 35%;
+      overflow: hidden;
 
       .downArrow {
         font-size: 5rem;
