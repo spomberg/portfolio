@@ -12,7 +12,7 @@
     
     .imgContainer{
       display: flex;
-      background-color: rgb(181, 53, 78);
+      background-color: $introColor;
       border-radius: 50%;
       height: 115%;
       position: relative;
@@ -55,6 +55,7 @@
   
       h3 {
         font-weight: 500;
+        color: $introColor;
       }
     }
 
