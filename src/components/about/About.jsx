@@ -1,6 +1,8 @@
 import './about.scss';
 import { aboutMe } from '../../data';
-import photo from '../../assets/images/photo.jpg'
+import photo from '../../assets/images/photo.jpg';
+import javascript from '../../assets/images/javascript-icon.png';
+import html from '../../assets/images/html5-icon.png';
 
 export default function About() {
   return (
@@ -17,6 +19,10 @@ export default function About() {
           <div className="aboutMeSkills">
             <h2>Skills</h2>
             <span>{aboutMe.skills}</span>
+          </div>
+          <div className="skillIcons">
+            <img src={javascript} alt="javascript icon" />
+            <img src={html} alt="html icon" />
           </div>
         </div>
       </div>
