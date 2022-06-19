@@ -24,7 +24,7 @@ export default function Intro() {
             />
           </h3>
         </div>
-        <a href="#portfolio">
+        <a href="#about">
           <KeyboardArrowDown className="downArrow" />
         </a>
       </div>
