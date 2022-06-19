@@ -1,3 +1,53 @@
-.about{
-  background-color: lightblue;
+.about {
+  background-color: white;
+  color: white;
+  
+  .wrapper {
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    line-height: 170%;
+
+    h2 {
+      margin-bottom: 3%;
+    }
+    
+    .left {
+      flex: 0.5;
+      overflow: hidden;
+      text-align: center;
+  
+      img {
+        height: 70%;
+        width: 70%;
+        object-fit: cover;
+        position: relative;
+        border-radius: 20%;
+      }
+    }
+  
+    .right {
+      flex: 0.5;
+
+      .aboutMeText {
+        background-color: teal;
+        margin-bottom: 10%;
+        width: 80%;
+        padding: 3%;
+      }
+
+      h2 {
+
+      }
+
+      .aboutMeSkills {
+        background-color: green;
+        width: 80%;
+        padding: 3%;
+      }
+    }
+  }
+
+
 }
