@@ -11,3 +11,11 @@ $mainColor: #15023a;
     transform: scale(0, 0);
   }
 }
+
+@keyframes float {
+  0% { transform: translateY(0%); }
+
+  50% { transform: translateY(15%); }
+
+  100% { transform: translateY(0%); }
+}
