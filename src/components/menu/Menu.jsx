@@ -13,9 +13,6 @@ export default function Menu({ menuOpen, setMenuOpen }) {
         <li>
           <a href="#portfolio">Portfolio</a>
         </li>
-        <li>
-          <a href="#works">Works</a>
-        </li>
       </ul>
     </div>
   )
