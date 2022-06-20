@@ -1,7 +1,6 @@
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
-import Works from "./components/works/Works";
 import About from "./components/about/About";
 import Menu from "./components/menu/Menu"
 
@@ -19,7 +18,6 @@ function App() {
         <Intro/>
         <About/>
         <Portfolio/>
-        <Works/>
       </div>
     </div>
   );
