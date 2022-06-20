@@ -1,5 +1,5 @@
 export const aboutMe = {
-  text: "Full-Stack Web Developer with vast experience on project management. Enjoys programming and developing apps that are useful, easy to navigate and offer unique solutions to common problems.",
+  text: "Full-Stack Web Developer with vast experience on project management and transferring knowledge. Enjoys programming and developing apps that are useful, easy to navigate and offer unique solutions to common problems.",
   skills: "JavaScript, HTML5, CSS, SASS, React.JS, Node.JS, Ruby/Rails, JQuery, Ajax, PostgreSQL, Git, Bootstrap, Jest, Cypress, Storybook"
 }
 
