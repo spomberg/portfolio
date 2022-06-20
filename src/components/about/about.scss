@@ -1,4 +1,21 @@
 .about {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
   background-color: white;
   color: white;
   
@@ -17,7 +34,7 @@
       flex: 0.5;
       overflow: hidden;
       text-align: center;
-      padding-bottom: 9%;
+      padding-bottom: 5%;
   
       img {
         height: 70%;
@@ -49,13 +66,14 @@
         flex-direction: row;
         padding-top: 5%;
         padding-bottom: 5%;
-        padding-left: 2%;
+        padding-left: 1.5%;
         
         img {
           width: 10%;
+          object-fit: contain;
           margin-right: 5%;
           -webkit-filter: drop-shadow(5px 5px 5px #222 );
-          filter: drop-shadow(5px 2px 6px #222);
+          filter: drop-shadow(10px 11px 11px rgb(87, 87, 87));
         }
       }
     }
