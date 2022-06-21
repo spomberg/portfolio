@@ -36,6 +36,10 @@
     .right {
       flex: 0.5;
 
+      h2 {
+        overflow: hidden;
+      }
+      
       .aboutMeText {
         background-color: rgb(96, 168, 96);
         margin-bottom: 5%;
