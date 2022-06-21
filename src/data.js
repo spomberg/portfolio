@@ -37,7 +37,8 @@ export const portfolio = [
   {
     id: 6,
     title: "TinyApp",
-    description: "Full-stack web application built with Node and Express that allows users to shorten long URLs (à la bit.ly)."
+    description: "Full-stack web application built with Node and Express that allows users to shorten long URLs (à la bit.ly).",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU"
   }
 ]
 
