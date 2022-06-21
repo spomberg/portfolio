@@ -1,5 +1,6 @@
 import './about.scss';
 import { aboutMe } from '../../data';
+import { KeyboardArrowDown, KeyboardArrowUp } from '@material-ui/icons';
 import photo from '../../assets/images/photo.jpg';
 import javascript from '../../assets/images/javascript-icon.png';
 import html from '../../assets/images/html5-icon.png';
@@ -11,6 +12,9 @@ import ruby from '../../assets/images/ruby-on-rails.png';
 export default function About() {
   return (
     <div className="about" id="about">
+      <a href="#intro">
+          <KeyboardArrowUp className="upArrow" />
+        </a>
       <div className="wrapper">
         <div className="left">
           <img src={photo} alt="Marcos" />
@@ -34,6 +38,9 @@ export default function About() {
           </div>
         </div>
       </div>
+      <a href="#portfolio">
+          <KeyboardArrowDown className="downArrow" />
+        </a>
     </div>
   )
 }
