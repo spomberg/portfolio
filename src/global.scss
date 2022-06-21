@@ -1,5 +1,4 @@
 $mainColor: #15023a;
-
 $introColor: crimson;
 
 @mixin menuIconAnimation {
@@ -12,6 +11,17 @@ $introColor: crimson;
   &:active {
     transform: scale(0, 0);
   }
+}
+
+@mixin arrow($bottom) {
+  position: absolute;
+  bottom: $bottom;
+  left: 50%;
+  color: $mainColor;
+  overflow: hidden;
+  font-size: 3rem;
+  font-weight: 100;
+  animation: float 3s ease-in-out infinite;
 }
 
 @keyframes float {
