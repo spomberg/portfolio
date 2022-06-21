@@ -13,7 +13,7 @@ export default function Intro() {
       </div>
       <div className='right'>
         <div className='wrapper'>
-          <h2>Hi, there, I'm</h2>
+          <h2>Hello! I'm</h2>
           <h1>Marcos Spomberg</h1>
           <h3>
             <Typewriter
@@ -24,10 +24,10 @@ export default function Intro() {
             />
           </h3>
         </div>
+      </div>
         <a href="#about">
           <KeyboardArrowDown className="downArrow" />
         </a>
-      </div>
     </div>
   )
 }
