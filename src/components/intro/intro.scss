@@ -55,20 +55,10 @@
         font-weight: 500;
         color: $introColor;
       }
-    }
-
-    a {
-      position: absolute;
-      bottom: 0%;
-      color: inherit;
-      overflow: hidden;
-
-      .downArrow {
-        font-size: 5rem;
-        font-weight: 100;
-        animation: float 3s ease-in-out infinite;
-      }
-    }
-
+    }  
+  }
+  
+  .downArrow {
+    @include arrow(0%);
   }
 }
