@@ -11,7 +11,7 @@
   
   .wrapper {
     display: flex;
-    margin-top: 5%;
+    margin-top: 6%;
     align-items: center;
     justify-content: center;
     line-height: 150%;
@@ -50,7 +50,9 @@
         text-align: justify;
         margin-bottom: 2%;
         width: 80%;
-        padding: 3%;
+        padding-right: 3%;
+        padding-bottom: 3%;
+        padding-left: 3%;
         
         span {
           white-space: pre-wrap;
@@ -60,13 +62,14 @@
       .aboutMeSkills {
         background-color: rgb(155, 89, 59);
         width: 80%;
-        padding: 3%;
+        padding-right: 3%;
+        padding-bottom: 3%;
+        padding-left: 3%;
         
         .skillIcons {
           display: flex;
           flex-direction: row;
-          padding-top: 5%;
-          padding-left: 1.5%;
+          padding-top: 3%;
           
           img {
             width: 15%;
