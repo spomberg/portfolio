@@ -5,14 +5,16 @@
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
+  overflow: hidden;
   color: white;
+  font-size: 1rem;
   
   .wrapper {
     display: flex;
     margin-top: 5%;
     align-items: center;
     justify-content: center;
-    line-height: 170%;
+    line-height: 150%;
 
     h2 {
       margin-bottom: 3%;
@@ -22,7 +24,7 @@
       flex: 0.5;
       overflow: hidden;
       text-align: center;
-      padding-bottom: 7%;
+      margin-bottom: 12%;
   
       img {
         height: 70%;
@@ -31,51 +33,57 @@
         position: relative;
         border-radius: 20%;
       }
+      
     }
-  
+    
     .right {
       flex: 0.5;
-
+      margin-bottom: 9%;
+      
+      
       h2 {
         overflow: hidden;
       }
       
       .aboutMeText {
         background-color: rgb(96, 168, 96);
-        margin-bottom: 5%;
+        text-align: justify;
+        margin-bottom: 2%;
         width: 80%;
         padding: 3%;
-      }
-
-      .aboutMeSkills {
-        background-color: rgb(200, 112, 72);
-        width: 80%;
-        padding: 3%;
-      }
-
-      .skillIcons {
-        display: flex;
-        flex-direction: row;
-        padding-top: 5%;
-        padding-bottom: 5%;
-        padding-left: 1.5%;
         
-        img {
-          width: 10%;
-          object-fit: contain;
-          margin-right: 5%;
-          -webkit-filter: drop-shadow(5px 5px 5px #222 );
-          filter: drop-shadow(10px 11px 11px rgb(87, 87, 87));
+        span {
+          white-space: pre-wrap;
         }
       }
+      
+      .aboutMeSkills {
+        background-color: rgb(155, 89, 59);
+        width: 80%;
+        padding: 3%;
+        
+        .skillIcons {
+          display: flex;
+          flex-direction: row;
+          padding-top: 5%;
+          padding-left: 1.5%;
+          
+          img {
+            width: 15%;
+            object-fit: contain;
+            margin-right: 5%;
+          }
+        }
+      }
+      
     }
   }
 
   .upArrow {
-    @include arrow (-5%)
+    @include arrow (-7%)
   }
 
   .downArrow {
-    @include arrow(-100%);
+    @include arrow(-99%);
   }
 }

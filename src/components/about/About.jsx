@@ -27,7 +27,6 @@ export default function About() {
           <div className="aboutMeSkills">
             <h2>Skills</h2>
             <span>{aboutMe.skills}</span>
-          </div>
           <div className="skillIcons">
             <img src={javascript} alt="javascript icon" />
             <img src={html} alt="html icon" />
@@ -35,6 +34,7 @@ export default function About() {
             <img src={react} alt="react icon" />
             <img src={sql} alt="sql icon" />
             <img src={ruby} alt="ruby icon" />
+          </div>
           </div>
         </div>
       </div>
