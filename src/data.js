@@ -1,5 +1,7 @@
 export const aboutMe = {
-  text: "Full-Stack Web Developer with vast experience on project management and transferring knowledge. Enjoys programming and developing apps that are useful, easy to navigate and offer unique solutions to common problems.",
+  text: `I'm a full-stack junior web developer and a recent graduate of Lighthouse Labs. 
+  \nThroughout my career, I have honed my people skills in other industries where I successfully lead projects in different areas and headed a 10 people team for 5 years. I also trained hundreds of people, as passing down knowledge (while continuously learning) is a passion of mine. 
+  \nMy goal is to now use my skills to make meaningful connections, exchange knowledge and help others while working as a Web Developer.`,
   skills: "JavaScript, HTML5, CSS, SASS, React.JS, Node.JS, Ruby/Rails, JQuery, Ajax, PostgreSQL, Git, Bootstrap, Jest, Cypress, Storybook"
 }
 
