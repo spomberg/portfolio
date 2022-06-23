@@ -50,10 +50,8 @@
         text-align: justify;
         margin-bottom: 2%;
         width: 80%;
-        padding-right: 3%;
-        padding-bottom: 3%;
-        padding-left: 3%;
-        
+        padding: 3%;
+
         span {
           white-space: pre-wrap;
         }
@@ -62,9 +60,7 @@
       .aboutMeSkills {
         background-color: rgb(155, 89, 59);
         width: 80%;
-        padding-right: 3%;
-        padding-bottom: 3%;
-        padding-left: 3%;
+        padding: 3%;
         
         .skillIcons {
           display: flex;
