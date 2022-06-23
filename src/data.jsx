@@ -10,7 +10,7 @@ export const portfolio = [
     id: 1,
     title: "Trash2Treasure",
     description: "Platform for users to list items (treasures) that are being left for donation in public spaces. Created with React and Ruby on Rails.",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1655945433/portfolio/index1_yaz40y.jpg",
     gif: "",
     link: "https://github.com/spomberg/trash2treasure",
     stacks: []
