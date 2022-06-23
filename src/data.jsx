@@ -10,7 +10,7 @@ export const portfolio = [
     id: 1,
     title: "Trash2Treasure",
     description: "Platform for users to list items (treasures) that are being left for donation in public spaces. Created with React and Ruby on Rails.",
-    img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1655945433/portfolio/index1_yaz40y.jpg",
+    img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656024604/portfolio/search-results1_nfgzdg.png",
     gif: "",
     link: "https://github.com/spomberg/trash2treasure",
     stacks: []
@@ -26,27 +26,27 @@ export const portfolio = [
   },
   {
     id: 3,
-    title: "Jungle",
-    description: "A mini e-commerce application built with Ruby on Rails.",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "Scheduler",
+    description: "Single-page app built with React that allows students to book interviews.",
+    img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656024779/portfolio/book_interview_gkwfxq.png",
     gif: "",
-    link: "https://github.com/spomberg/jungle-rails",
+    link: "https://github.com/spomberg/scheduler",
     stacks: []
   },
   {
     id: 4,
-    title: "Scheduler",
-    description: "Single-page app built with React that allows students to book interviews.",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    title: "Jungle",
+    description: "A mini e-commerce application built with Ruby on Rails.",
+    img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656025990/portfolio/FireShot_Capture_046_-_Jungle_-_localhost_f7aqek.png",
     gif: "",
-    link: "https://github.com/spomberg/scheduler",
+    link: "https://github.com/spomberg/jungle-rails",
     stacks: []
   },
   {
     id: 5,
     title: "LightBnB",
     description: "A simple AirBnB clone created to get comfortable with databases and SQL.",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656024869/portfolio/main-page_k5d50s.png",
     gif: "",
     link: "https://github.com/spomberg/LightBnB",
     stacks: []
@@ -55,7 +55,7 @@ export const portfolio = [
     id: 6,
     title: "TinyApp",
     description: "Full-stack web application built with Node and Express that allows users to shorten long URLs (à la bit.ly).",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656024969/portfolio/shortURL-page_nnm0ch.png",
     gif: "",
     link: "https://github.com/spomberg/tinyapp",
     stacks: []
