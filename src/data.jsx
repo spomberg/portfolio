@@ -19,7 +19,7 @@ export const portfolio = [
     id: 2,
     title: "QuizApp",
     description: "An application to create and share quizzes built with JavaScript, HTML5, Node, Express.",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1655950756/portfolio/quiz_attempt_tklaqb.png",
     gif: "",
     link: "https://github.com/spomberg/quizapp",
     stacks: []
