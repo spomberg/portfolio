@@ -16,12 +16,18 @@ $introColor: crimson;
 @mixin arrow($bottom) {
   position: absolute;
   bottom: $bottom;
+  opacity: 50%;
   left: 50%;
   color: $mainColor;
   overflow: hidden;
   font-size: 3rem;
   font-weight: 100;
   animation: float 3s ease-in-out infinite;
+  transition: all 250ms ease;
+
+  &:hover {
+    opacity: 100%;
+  }
 }
 
 @keyframes float {
