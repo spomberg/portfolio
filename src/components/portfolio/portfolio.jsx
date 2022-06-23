@@ -10,7 +10,6 @@ export default function Portfolio() {
           <KeyboardArrowUp className="upArrow" />
         </a>
       <h1>Portfolio</h1>
-      <div className='container'>
         <ul className='worksList'>
           {Object.values(portfolio).map(work => {
             return (
@@ -22,7 +21,6 @@ export default function Portfolio() {
             )
           })}
         </ul>
-      </div>
     </div>
   )
 }
