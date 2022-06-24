@@ -14,9 +14,7 @@ export default function Portfolio() {
           {Object.values(portfolio).map(work => {
             return (
               <li key={work.id}>
-                <Work 
-                {...work}
-                />
+                <Work {...work} />
               </li>
             )
           })}
