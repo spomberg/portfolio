@@ -37,7 +37,7 @@ export const portfolio = [
     id: 4,
     title: "Jungle",
     description: "A mini e-commerce application built with Ruby on Rails.",
-    img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656025990/portfolio/FireShot_Capture_046_-_Jungle_-_localhost_f7aqek.png",
+    img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656035197/portfolio/FireShot_Capture_047_-_Jungle_-_localhost_fllw0k.png",
     gif: "",
     link: "https://github.com/spomberg/jungle-rails",
     stacks: []
