@@ -1,4 +1,5 @@
 import './portfolio.scss';
+import './work.scss';
 import { portfolio } from '../../data';
 import { KeyboardArrowUp } from '@material-ui/icons';
 import Work from './Work';
