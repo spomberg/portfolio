@@ -38,20 +38,22 @@
     overflow: hidden;
     
     .wrapper {
-      font-size: xx-large;
       display: flex;
       flex-direction: column;
       
       h2 {
+        font-size: 2.5em;
         margin-bottom: 1rem;
         font-weight: 500;
       }
   
       h1 {
+        font-size: 5em;
         margin-bottom: 1rem;
       }
   
       h3 {
+        font-size: 3em;
         font-weight: 500;
         color: $introColor;
       }
