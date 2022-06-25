@@ -21,12 +21,16 @@
       display: flex;
 
       .logo {
+        font-family: 'Leckerli One', cursive;
+        background-color: $mainColor;
+        border-radius: 20%;
         font-size: 2rem;
         font-weight: 700;
         text-decoration: none;
-        color: inherit;
+        color: white;
         font-weight: 300;
         margin-right: 1rem;
+        transition: all 1s ease;
       }
 
       .itemContainer {
@@ -73,6 +77,15 @@
   &.active {
     background-color: $mainColor;
     color: white;
+
+    .wrapper {
+      .left {
+        .logo {
+          background-color: white;
+          color: $mainColor;
+        }
+      }
+    }
 
     .hamburguer{
 
