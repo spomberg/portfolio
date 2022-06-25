@@ -2,10 +2,16 @@
 @import "~bootstrap/scss/bootstrap";
 
 .workModal {
+  
+  .modal-title {
+    margin-left: 0.5%;
+  }
 
-  .modalBody{
+  .modal-body{
     display: flex;
     flex-direction: column;
+
+
 
     img {
       object-fit: contain;
@@ -17,23 +23,26 @@
     span {
       margin-top: 1.5%;
       margin-bottom: 1%;
+      margin-left: 0.5%;
     }
 
     a {
       display: flex;
       align-items: center;
+      margin-left: 0.5%;
 
-      .ghIcon {
+      .gh-icon {
         color: black;
         margin-right: 0.3%;
       }
     }
   }
 
-  .modalFooter {
+  .modal-footer {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    margin-left: 0.5%;
     
     img {
       object-fit: contain;

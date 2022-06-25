@@ -24,16 +24,16 @@ export default function Work(props) {
           <Modal.Header closeButton>
             <Modal.Title>{props.title}</Modal.Title>
           </Modal.Header>
-          <Modal.Body className="modalBody">
+          <Modal.Body>
             <img src={props.gif} alt={`${props.title} usage gif`} />
             <span>{props.description}</span>
             <a href={props.link} target="_blank" rel="noreferrer">
-              <GitHub className="ghIcon"/>Visit the repo
+              <GitHub className="gh-icon"/>Visit the repo
             </a>
           </Modal.Body>
-          <Modal.Footer className="modalFooter">
+          <Modal.Footer>
             <h4>Stacks</h4>
-            <div className="stackList">
+            <div>
               {Object.values(props.stacks).map(stack => {
                 return (
                   <img key={stack} src={stack} alt="stack logo" />
