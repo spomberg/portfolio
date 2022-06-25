@@ -19,7 +19,7 @@ export default function Work(props) {
           show={show} 
           onHide={handleClose} 
           className="workModal"
-          size="lg"
+          size="xl"
         >
           <Modal.Header closeButton>
             <Modal.Title>{props.title}</Modal.Title>
@@ -28,7 +28,7 @@ export default function Work(props) {
             <img src={props.gif} alt={`${props.title} usage gif`} />
             <span>{props.description}</span>
             <a href={props.link} target="_blank" rel="noreferrer">
-              <GitHub/> Visit the repo
+              <GitHub className="ghIcon"/>Visit the repo
             </a>
           </Modal.Body>
           <Modal.Footer className="modalFooter">
