@@ -18,7 +18,7 @@ export default function Work(props) {
         <Modal 
           show={show} 
           onHide={handleClose} 
-          className="workModal"
+          className="work-modal"
           size="xl"
         >
           <Modal.Header closeButton>
