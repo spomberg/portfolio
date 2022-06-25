@@ -28,15 +28,13 @@ export default function Work(props) {
         </Modal.Body>
         <Modal.Footer>
           <h4>Stacks</h4>
-          <ul className="stackList">
+          <div className="stackList">
             {Object.values(props.stacks).map(stack => {
               return (
-                <li>
-                  <img src={stack} alt="stack logo" />
-                </li>
+                <img key={stack} src={stack} alt="stack logo" />
               )
             })}
-          </ul>
+          </div>
         </Modal.Footer>
       </Modal>
     </>
