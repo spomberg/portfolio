@@ -2,12 +2,16 @@
 @import "~bootstrap/scss/bootstrap";
 
 .workModal {
+
   .modalBody{
     display: flex;
     flex-direction: column;
 
     img {
+      object-fit: contain;
+      width: 95%;
       border: 0.1em solid lightgrey;
+      align-self: center;
     }
 
     span {
@@ -18,7 +22,11 @@
     a {
       display: flex;
       align-items: center;
-      
+
+      .ghIcon {
+        color: black;
+        margin-right: 0.3%;
+      }
     }
   }
 
@@ -29,7 +37,7 @@
     
     img {
       object-fit: contain;
-      width: 10%;
+      width: 8%;
       margin-right: 5%;
       margin-left: 1%;
       margin-bottom: 1%;
