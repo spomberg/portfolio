@@ -1,0 +1,53 @@
+@import '../../global.scss';
+@import "~bootstrap/scss/bootstrap";
+
+.workModal {
+  
+  .modal-title {
+    margin-left: 0.5%;
+  }
+
+  .modal-body{
+    display: flex;
+    flex-direction: column;
+
+    img {
+      object-fit: contain;
+      width: 95%;
+      border: 0.1em solid lightgrey;
+      align-self: center;
+    }
+
+    span {
+      margin-top: 1.5%;
+      margin-bottom: 1%;
+      margin-left: 0.5%;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      margin-left: 0.5%;
+
+      .gh-icon {
+        color: black;
+        margin-right: 0.3%;
+      }
+    }
+  }
+
+  .modal-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 0.5%;
+    
+    img {
+      object-fit: contain;
+      width: 8%;
+      margin-right: 5%;
+      margin-left: 1%;
+      margin-bottom: 1%;
+    }
+  }
+}
