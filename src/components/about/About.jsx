@@ -2,6 +2,7 @@ import './about.scss';
 import { aboutMe } from '../../data';
 import { KeyboardArrowDown, KeyboardArrowUp } from '@material-ui/icons';
 import Card from "react-bootstrap/Card";
+import photo from "../../assets/images/photo-bg.jpg";
 import javascript from '../../assets/images/javascript-icon.png';
 import html from '../../assets/images/html5-icon.png';
 import sass from '../../assets/images/sass.png';
@@ -17,6 +18,9 @@ export default function About() {
         <KeyboardArrowUp className="upArrow" />
       </a>
       <Card>
+        <div className='profile-photo'>
+          <img src={photo} alt="profile" />
+        </div>
         <Card.Body>
           <Card.Title>About Me</Card.Title>
           <Card.Text>{aboutMe.text}</Card.Text>
