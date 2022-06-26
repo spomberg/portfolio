@@ -1,6 +1,7 @@
 import './about.scss';
 import { aboutMe } from '../../data';
 import { KeyboardArrowDown, KeyboardArrowUp } from '@material-ui/icons';
+import Card from "react-bootstrap/Card";
 import javascript from '../../assets/images/javascript-icon.png';
 import html from '../../assets/images/html5-icon.png';
 import sass from '../../assets/images/sass.png';
@@ -13,20 +14,15 @@ export default function About() {
   return (
     <div className="about" id="about">
       <a href="#intro">
-          <KeyboardArrowUp className="upArrow" />
-        </a>
-      <div className="wrapper">
-        <div className="left">
-          <div className="aboutMeText">
-            <h2>About Me</h2>
-            <span>{aboutMe.text}</span>
-          </div>
-        </div>
-        <div className="right">
-          <div className="aboutMeSkills">
-            <h2>Skills</h2>
-            <span>{aboutMe.skills}</span>
-          <div className="skillIcons">
+        <KeyboardArrowUp className="upArrow" />
+      </a>
+      <Card>
+        <Card.Body>
+          <Card.Title>About Me</Card.Title>
+          <Card.Text>{aboutMe.text}</Card.Text>
+          <Card.Title>Skills</Card.Title>
+          <Card.Text>{aboutMe.skills}</Card.Text>
+          <div className="skill-icons">
             <img src={javascript} alt="javascript icon" />
             <img src={node} alt="node icon" />
             <img src={react} alt="react icon" />
@@ -35,9 +31,8 @@ export default function About() {
             <img src={sass} alt="sass icon" />
             <img src={ruby} alt="ruby icon" />
           </div>
-          </div>
-        </div>
-      </div>
+        </Card.Body>
+      </Card>
       <a href="#portfolio">
           <KeyboardArrowDown className="downArrow" />
         </a>
