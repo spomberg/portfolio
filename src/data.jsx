@@ -49,6 +49,7 @@ export const portfolio = [
     description: "A mini e-commerce application built with Ruby on Rails.",
     img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656035197/portfolio/FireShot_Capture_047_-_Jungle_-_localhost_fllw0k.png",
     gif: "https://res.cloudinary.com/djv3yhbok/image/upload/q_auto/v1656035534/portfolio/Recording_2022-06-23_at_21.50.28_t5ckl7.webp",
+    placeholder: "https://res.cloudinary.com/djv3yhbok/image/upload/e_blur:100,q_auto:low/v1656035534/portfolio/Recording_2022-06-23_at_21.50.28_t5ckl7.jpg",
     link: "https://github.com/spomberg/jungle-rails",
     stacks: [ruby, html, css]
   },
@@ -57,7 +58,7 @@ export const portfolio = [
     title: "LightBnB",
     description: "A simple AirBnB clone created to get comfortable with databases and SQL.",
     img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656024869/portfolio/main-page_k5d50s.png",
-    gif: "",
+    gif: "https://res.cloudinary.com/djv3yhbok/image/upload/e_blur:100,q_auto:low/v1656035534/portfolio/Recording_2022-06-23_at_21.50.28_t5ckl7.webp",
     link: "https://github.com/spomberg/LightBnB",
     stacks: [javascript, sql, html, css]
   },
