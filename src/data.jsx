@@ -48,7 +48,7 @@ export const portfolio = [
     title: "Jungle",
     description: "A mini e-commerce application built with Ruby on Rails.",
     img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656035197/portfolio/FireShot_Capture_047_-_Jungle_-_localhost_fllw0k.png",
-    gif: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656035534/portfolio/Recording_2022-06-23_at_21.50.28_t5ckl7.gif",
+    gif: "https://res.cloudinary.com/djv3yhbok/image/upload/q_auto/v1656035534/portfolio/Recording_2022-06-23_at_21.50.28_t5ckl7.webp",
     link: "https://github.com/spomberg/jungle-rails",
     stacks: [ruby, html, css]
   },
