@@ -1,6 +1,6 @@
 import './about.scss';
 import { aboutMe } from '../../data';
-import { KeyboardArrowDown, KeyboardArrowUp } from '@material-ui/icons';
+import { GitHub, LinkedIn, KeyboardArrowDown, KeyboardArrowUp } from '@material-ui/icons';
 import Card from "react-bootstrap/Card";
 import photo from "../../assets/images/photo-bg.jpg";
 import javascript from '../../assets/images/javascript-icon.png';
@@ -13,13 +13,23 @@ import node from '../../assets/images/nodejs.png'
 
 export default function About() {
   return (
-    <div className="about" id="about">
+    <div className='about' id='about'>
       <a href="#intro">
-        <KeyboardArrowUp className="upArrow" />
+        <KeyboardArrowUp className='up-arrow'/>
       </a>
       <Card>
         <div className='profile-photo'>
+          <h3>Marcos Spomberg</h3>
           <img src={photo} alt="profile" />
+          <h4>Full-Stack Web Developer</h4>
+          <div className='social-media-links'>
+            <a href="https://github.com/spomberg" target="_blank" rel="noreferrer">
+              <GitHub className='icon'/>
+            </a>
+            <a href='https://linkedin.com/in/marcos-spomberg' target="_blank" rel="noreferrer">
+              <LinkedIn className='icon'/>
+            </a>
+          </div>
         </div>
         <Card.Body>
           <Card.Title>About Me</Card.Title>
@@ -38,7 +48,7 @@ export default function About() {
         </Card.Body>
       </Card>
       <a href="#portfolio">
-          <KeyboardArrowDown className="downArrow" />
+          <KeyboardArrowDown className="down-arrow" />
         </a>
     </div>
   )
