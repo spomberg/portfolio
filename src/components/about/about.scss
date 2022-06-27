@@ -20,14 +20,14 @@
     position: relative;
     border: none;
     
-    .profile-photo {
+    .sidebar {
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
       width: 100%;
       justify-content: center;
       align-items: center;
-      background-color: rgb(229, 137, 76);
+      background-color: rgb(68, 160, 206);
 
       h3 {
         color: white;
@@ -64,6 +64,8 @@
         border-radius: 50%;
         object-position: 0%;
         object-fit: cover;
+        border: 0.2rem solid white;
+        box-shadow: 0.5rem;
       }
     }
     
