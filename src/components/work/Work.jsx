@@ -1,6 +1,9 @@
 import { useState } from "react";
 import Modal from "react-bootstrap/Modal";
-import { GitHub } from '@material-ui/icons';
+import Card from "react-bootstrap/Card";
+import ProgressiveImage from "react-progressive-graceful-image";
+import spinner from "../../assets/images/spinner.svg";
+import { GitHub } from "@material-ui/icons";
 
 export default function Work(props) {
   const [show, setShow] = useState(false);
@@ -25,7 +28,14 @@ export default function Work(props) {
             <Modal.Title>{props.title}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <img src={props.gif} alt={`${props.title} usage gif`} />
+            <Card>
+              <ProgressiveImage
+                src={props.gif}
+                placeholder={spinner}
+              >
+                {src => <img src={src} alt={`${props.title} usage gif`} />}
+              </ProgressiveImage>
+            </Card>
             <span>{props.description}</span>
             <a href={props.link} target="_blank" rel="noreferrer">
               <GitHub className="gh-icon"/>Visit the repo
