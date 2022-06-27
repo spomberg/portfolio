@@ -2,13 +2,20 @@ import './intro.scss'
 import { KeyboardArrowDown } from '@material-ui/icons';
 import Typewriter from 'typewriter-effect';
 import profilePhoto from '../../assets/images/profile-image.webp'
+import profilePhotoSmall from '../../assets/images/profile-image-small.webp';
+import ProgressiveImage from "react-progressive-graceful-image";
 
 export default function Intro() {
   return (
     <div className='intro' id='intro'>
       <div className='left'>
         <div className='imgContainer'>
-          <img src={profilePhoto} alt="profile" />
+          <ProgressiveImage
+            src={profilePhoto}
+            placeholder={profilePhotoSmall}
+          >
+            {src => <img src={src} alt="profile" />}
+          </ProgressiveImage>
         </div>
       </div>
       <div className='right'>
