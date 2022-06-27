@@ -6,6 +6,7 @@ import sql from '../src/assets/images/sql.png';
 import ruby from '../src/assets/images/ruby-on-rails.png';
 import node from '../src/assets/images/nodejs.png';
 import css from '../src/assets/images/css.png';
+import bootstrap from '../src/assets/images/bootstrap.png';
 
 export const aboutMe = {
   text: `I'm a full-stack junior web developer and a recent graduate of Lighthouse Labs. 
@@ -67,6 +68,6 @@ export const portfolio = [
     img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656024969/portfolio/shortURL-page_nnm0ch.png",
     gif: "",
     link: "https://github.com/spomberg/tinyapp",
-    stacks: [javascript, html, node]
+    stacks: [javascript, html, bootstrap, node]
   }
 ]
