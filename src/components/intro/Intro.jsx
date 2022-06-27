@@ -1,7 +1,7 @@
 import './intro.scss'
 import { KeyboardArrowDown } from '@material-ui/icons';
 import Typewriter from 'typewriter-effect';
-import profilePhoto from '../../assets/images/profile-image.png'
+import profilePhoto from '../../assets/images/profile-image.webp'
 
 export default function Intro() {
   return (

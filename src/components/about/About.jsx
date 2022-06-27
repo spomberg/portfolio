@@ -2,7 +2,7 @@ import './about.scss';
 import { aboutMe } from '../../data';
 import { GitHub, LinkedIn, KeyboardArrowDown, KeyboardArrowUp } from '@material-ui/icons';
 import Card from "react-bootstrap/Card";
-import photo from "../../assets/images/photo-bg.jpg";
+import photo from "../../assets/images/photo-bg.webp";
 import javascript from '../../assets/images/javascript-icon.png';
 import html from '../../assets/images/html5-icon.png';
 import sass from '../../assets/images/sass.png';
