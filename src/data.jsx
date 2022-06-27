@@ -41,7 +41,7 @@ export const portfolio = [
     img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656024779/portfolio/book_interview_gkwfxq.png",
     gif: "",
     link: "https://github.com/spomberg/scheduler",
-    stacks: [react]
+    stacks: [react, javascript]
   },
   {
     id: 4,
