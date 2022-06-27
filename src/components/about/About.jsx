@@ -18,7 +18,7 @@ export default function About() {
         <KeyboardArrowUp className='up-arrow'/>
       </a>
       <Card>
-        <div className='profile-photo'>
+        <div className='sidebar'>
           <h3>Marcos Spomberg</h3>
           <img src={photo} alt="profile" />
           <h4>Full-Stack Web Developer</h4>
