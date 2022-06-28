@@ -36,10 +36,12 @@ export default function Work(props) {
                 {src => <img src={src} alt={`${props.title} usage gif`} />}
               </ProgressiveImage>
             </Card>
-            <span>{props.description}</span>
-            <a href={props.link} target="_blank" rel="noreferrer">
-              <GitHub className="gh-icon"/>Visit the repo
-            </a>
+            <div className="description">
+              <span>{props.description}</span>
+              <a href={props.link} target="_blank" rel="noreferrer">
+                <GitHub className="gh-icon"/>Visit repo
+              </a>
+            </div>
           </Modal.Body>
           <Modal.Footer>
             <h4>Stacks</h4>

@@ -33,14 +33,13 @@
         transition: all 1s ease;
       }
 
-      .itemContainer {
+      .item-container {
         align-items: center;
         font-size: large;
         display: flex;
-        align-items: center;
         margin-left: 2rem;
         
-        .topbarIcon {
+        .topbar-icon {
           font-weight: bold;
           margin-right: 1rem;
         }
@@ -51,7 +50,6 @@
           text-decoration: none;
           color: inherit;
         }
-
       }
     }
   }
@@ -61,13 +59,13 @@
     .hamburguer {
       overflow: hidden;
       
-      .menuIcon {
+      .menu-icon {
         font-size: xx-large;
         cursor: pointer;
         @include menuIconAnimation;
       }
 
-      .closeIcon {
+      .close-icon {
         font-size: xx-large;
         display: none;
       }
@@ -89,15 +87,28 @@
 
     .hamburguer{
 
-      .menuIcon{
+      .menu-icon{
         display: none;
       }
 
-      .closeIcon{
+      .close-icon{
         display: flex;
         cursor: pointer;
         @include menuIconAnimation;
       }
     }
+  }
+
+  @media screen and (max-width: 1250px) {
+    
+    .wrapper {
+      .left {
+        .item-container {
+          font-size: initial;
+          align-items: center;
+        }
+      }
+    }
+    
   }
 }
