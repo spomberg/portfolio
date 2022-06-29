@@ -57,9 +57,9 @@ export const portfolio = [
     title: "LightBnB",
     description: "A simple AirBnB clone created to get comfortable with databases and SQL.",
     img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656024869/portfolio/main-page_k5d50s.png",
-    gif: "",
+    gif: "https://res.cloudinary.com/djv3yhbok/image/upload/q_auto/v1656538299/portfolio/lightbnb_fxfbv1.webp",
     link: "https://github.com/spomberg/LightBnB",
-    stacks: [javascript, sql, html, css]
+    stacks: [javascript, sql]
   },
   {
     id: 6,
