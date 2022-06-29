@@ -1,6 +1,6 @@
 import './about.scss';
 import { aboutMe } from '../../data';
-import { GitHub, LinkedIn, KeyboardArrowDown, KeyboardArrowUp } from '@material-ui/icons';
+import { GitHub, LinkedIn, KeyboardArrowDown, KeyboardArrowUp, LocationOn } from '@material-ui/icons';
 import Card from "react-bootstrap/Card";
 import photo from "../../assets/images/photo-bg.webp";
 import javascript from '../../assets/images/javascript-icon.png';
@@ -30,6 +30,9 @@ export default function About() {
               <LinkedIn className='icon'/>
             </a>
           </div>
+          <span>
+            <LocationOn />Toronto, ON
+          </span>
         </div>
         <Card.Body>
           <Card.Title>About Me</Card.Title>

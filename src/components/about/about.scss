@@ -44,6 +44,7 @@
       .social-media-links {
         display: flex;
         flex-wrap: wrap;
+        margin-top: 5%;
       }
 
       a {
@@ -66,6 +67,11 @@
         object-fit: cover;
         border: 0.2rem solid white;
         box-shadow: 0.5rem;
+      }
+
+      span {
+        color: white;
+        margin-top: 10%;
       }
     }
     
