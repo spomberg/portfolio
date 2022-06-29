@@ -30,7 +30,7 @@ export const portfolio = [
     title: "QuizApp",
     description: "An application to create and share quizzes built with JavaScript, HTML5, Node, Express.",
     img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1655950756/portfolio/quiz_attempt_tklaqb.png",
-    gif: "",
+    gif: "https://res.cloudinary.com/djv3yhbok/image/upload/q_auto:eco/v1656536225/portfolio/quizapp_w553f3.webp",
     link: "https://github.com/spomberg/quizapp",
     stacks: [javascript, html, sass, sql, node]
   },
