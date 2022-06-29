@@ -39,7 +39,7 @@ export default function Work(props) {
             <div className="description">
               <span>{props.description}</span>
               <a href={props.link} target="_blank" rel="noreferrer">
-                <GitHub className="gh-icon"/>Visit repo
+                <GitHub className="gh-icon"/>View repository
               </a>
             </div>
           </Modal.Body>
