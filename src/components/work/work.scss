@@ -106,7 +106,7 @@
 
       .modal-body {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
       
         .card {
           height: 95%;
@@ -115,7 +115,7 @@
           align-items: center;
   
           img {
-            width:fit-content;
+            width: cover;
             border: none;
           }
         }
@@ -125,11 +125,13 @@
           flex-direction: column;
 
           span {
-            margin-bottom: 5%;
+            margin-bottom: 1%;
+            padding: 0.1%;
           }
           
           a {
             width: -webkit-fill-available;
+            padding: 0.3%;
           }
         }
       }
