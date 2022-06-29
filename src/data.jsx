@@ -39,7 +39,7 @@ export const portfolio = [
     title: "Scheduler",
     description: "Single-page app built with React that allows students to book interviews.",
     img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656024779/portfolio/book_interview_gkwfxq.png",
-    gif: "",
+    gif: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656537416/portfolio/scheduler_mkquew.webp",
     link: "https://github.com/spomberg/scheduler",
     stacks: [react, javascript]
   },
