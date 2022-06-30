@@ -31,7 +31,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <div className='item-container'>
               <a href='mailto:marcosspomberg@gmail.com'>
                 <Email className='topbar-icon'/>
-                <span>marcosspomberg@gmail.com</span> 
+                <span className='email'>marcosspomberg@gmail.com</span> 
               </a>
             </div>
             <div className='item-container'>
