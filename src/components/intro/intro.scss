@@ -50,6 +50,7 @@
       h1 {
         font-size: 5em;
         margin-bottom: 1rem;
+        width: min-content;
       }
   
       h3 {
@@ -62,5 +63,27 @@
   
   .downArrow {
     @include arrow(0%);
+  }
+
+  @media screen and (max-width: 950px) {
+    .right {
+      .wrapper {
+        h2 {
+          font-size: 1.5em;
+        }
+
+        h1 {
+          font-size: 3em;
+        }
+
+        h3 {
+          font-size: 2em;
+        }
+      }
+    }
+
+    .downArrow {
+      @include arrow(-2%);
+    }
   }
 }
