@@ -19,6 +19,7 @@
 
     .left {
       display: flex;
+      align-content: center;
 
       .logo {
         font-family: 'Leckerli One', cursive;
@@ -31,6 +32,15 @@
         font-weight: 300;
         margin-right: 1rem;
         transition: all 1s ease;
+      }
+
+      .links {
+        display: flex;
+        align-items: center;
+      }
+
+      .contact-info {
+        display: flex;
       }
 
       .item-container {
@@ -110,5 +120,51 @@
       }
     }
     
+  }
+
+  @media screen and (max-width: 1200px) {
+    .wrapper {
+      .left {
+        .item-container {
+          font-size: small;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 1050px) {
+    .wrapper {
+      .left {
+        text-align: center;
+
+        .topbar-icon {
+          font-size: 1.5rem;
+
+          &.linkedin {
+            font-size: 2rem;
+          }
+        }
+
+        .resume {
+          display: none;
+        }
+
+        .links {
+          display: flex;
+          align-items: center;
+
+          span {
+            display: none;
+            top: auto;
+          } 
+        }
+
+        .item-container {
+          font-size: small;
+          align-items: center;
+          margin-left: 1rem;
+        }
+      }
+    }
   }
 }
