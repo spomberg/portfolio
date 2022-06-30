@@ -1,6 +1,6 @@
 @import "../../global.scss";
 
-.menu{
+.menu {
   width: 25rem;
   height: 100vh;
   background-color: $mainColor;
@@ -14,25 +14,53 @@
   justify-content: center;
   transition: all 0.7s ease;
 
-  &.active{
+  &.active {
     right: 0;
   }
 
   ul {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-top: 15%;
     list-style: none;
     font-weight: 300;
     width: 80%;
 
-    li{
+    li {
       margin-bottom: 2.5em;
+      overflow: hidden;
 
-      a{
+      a {
         color: white;
         text-decoration: none;
         font-size: 4rem;
 
-        &:hover{
+        &:hover {
           font-weight: 400;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-height: 500px) {
+    ul {
+      padding-top: 1rem;
+
+      li {
+        a {
+          font-size: 3.5rem;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-height: 400px) {
+    ul {
+      li {
+        a {
+          font-size: 3rem;
         }
       }
     }
