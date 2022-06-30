@@ -66,8 +66,13 @@
   }
 
   @media screen and (max-width: 950px) {
+    .imgContainer {
+      margin-bottom: 10%;
+    }
+    
     .right {
       .wrapper {
+        margin-bottom: 10%;
         h2 {
           font-size: 1.5em;
         }
@@ -78,6 +83,7 @@
 
         h3 {
           font-size: 2em;
+          width: 70%;
         }
       }
     }
