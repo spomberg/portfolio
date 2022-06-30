@@ -120,6 +120,17 @@
         .email {
           margin-top: 1%;
         }
+
+      }
+
+      .hamburguer {
+        .menu-icon {
+          font-size: x-large;
+        }
+
+        .close-icon {
+          font-size: x-large;
+        }
       }
     }
     
@@ -186,7 +197,38 @@
     }
   }
 
-  // @media screen and (max-width: 415px) {
-   
-  // }
+  @media screen and (max-width: 450px) {
+   .wrapper {
+
+    .left {
+      .logo {
+        position: absolute;
+      }
+  
+      .links {
+        margin-left: 3rem;
+      }
+
+      .item-container {
+        margin-left: 0;
+      }
+
+      #email {
+        display: none;
+      }
+
+      #cv {
+        padding-right: 0.5rem;
+      }
+     
+      #phone {
+        display: none;
+      }
+
+     .right {
+      margin-left: 5%;
+     }
+    }
+   }
+  }
 }

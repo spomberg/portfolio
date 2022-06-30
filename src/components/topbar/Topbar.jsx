@@ -24,17 +24,17 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           <div className='contact-info'>
             <div className='item-container'>
               <a href='https://resume.creddle.io/resume/ficw6ujhr3l' target="_blank" rel="noreferrer">
-                <span className='topbar-icon'>CV</span>
+                <span id='cv' className='topbar-icon'>CV</span>
                 <span className='resume'>Resume</span>
               </a>
             </div>
-            <div className='item-container'>
+            <div id='email' className='item-container'>
               <a href='mailto:marcosspomberg@gmail.com'>
                 <Email className='topbar-icon'/>
                 <span className='email'>marcosspomberg@gmail.com</span> 
               </a>
             </div>
-            <div className='item-container'>
+            <div id='phone' className='item-container'>
               <Phone className='topbar-icon'/>
               <span>647-807-9640</span>
             </div>
