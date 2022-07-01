@@ -116,11 +116,6 @@
           font-size: initial;
           align-items: center;
         }
-
-        .email {
-          margin-top: 1%;
-        }
-
       }
 
       .hamburguer {
@@ -133,20 +128,9 @@
         }
       }
     }
-    
   }
 
-  @media screen and (max-width: 1200px) {
-    .wrapper {
-      .left {
-        .item-container {
-          font-size: small;
-        }
-      }
-    }
-  }
-
-  @media screen and (max-width: 1050px) {
+  @media screen and (max-width: 1150px) {
     .wrapper {
       .left {
         text-align: center;
@@ -197,7 +181,7 @@
     }
   }
 
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width:550px) {
    .wrapper {
 
     .left {
