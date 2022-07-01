@@ -89,4 +89,14 @@
       }
     }
   }
+
+  // @media screen and (max-width: 415px) {
+    
+  // }
+
+  @media screen and (max-height: 510px) {
+    .downArrow {
+      @include arrow(-2.5%);
+    }
+  }
 }
