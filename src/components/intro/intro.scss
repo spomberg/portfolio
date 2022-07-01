@@ -101,7 +101,7 @@
       
       .imgContainer {
         left: 15%;
-        top: 7%;
+        top: 5%;
       }
     }
 
@@ -110,7 +110,7 @@
       .wrapper {
         display: flex;
         margin-left: 20%;
-        margin-bottom: 15%;
+        margin-bottom: 25%;
 
         h1 {
           width: fit-content;
@@ -120,6 +120,9 @@
           width: fit-content;
         }
       }
+    }
+    .downArrow {
+      @include arrow(2%);
     }
   }
 
