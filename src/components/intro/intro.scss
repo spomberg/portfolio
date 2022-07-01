@@ -46,18 +46,21 @@
         font-size: 2.5em;
         margin-bottom: 1rem;
         font-weight: 500;
+        overflow: hidden;
       }
   
       h1 {
         font-size: 5em;
         margin-bottom: 1rem;
         width: min-content;
+        overflow: hidden;
       }
   
       h3 {
         font-size: 3em;
         font-weight: 500;
         color: $introColor;
+        overflow: hidden;
       }
     }  
   }
@@ -90,9 +93,36 @@
     }
   }
 
-  // @media screen and (max-width: 415px) {
-    
-  // }
+  @media screen and (max-width: 415px) {
+    flex-direction: column;
+
+    .left {
+      display: flex;
+      
+      .imgContainer {
+        left: 15%;
+        top: 7%;
+      }
+    }
+
+    .right {
+      margin-bottom: 10%;
+
+      .wrapper {
+        display: flex;
+        margin-left: 20%;
+        margin-bottom: 0;
+
+        h1 {
+          width: fit-content;
+        }
+
+        h3 {
+          width: fit-content;
+        }
+      }
+    }
+  }
 
   @media screen and (max-height: 510px) {
     .downArrow {
