@@ -40,6 +40,7 @@
     .wrapper {
       display: flex;
       flex-direction: column;
+      overflow: hidden;
       
       h2 {
         font-size: 2.5em;
@@ -86,10 +87,6 @@
           width: 70%;
         }
       }
-    }
-
-    .downArrow {
-      @include arrow(-2%);
     }
   }
 }
