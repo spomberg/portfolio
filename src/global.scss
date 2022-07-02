@@ -17,7 +17,7 @@ $introColor: crimson;
   position: absolute;
   bottom: $bottom;
   opacity: 50%;
-  left: 47%;
+  left: 48.5%;
   color: $mainColor;
   overflow: hidden;
   font-size: 3rem;
@@ -27,6 +27,10 @@ $introColor: crimson;
 
   &:hover {
     opacity: 100%;
+  }
+
+  @media screen and (max-width: 412px) {
+    left: 44%;
   }
 }
 
