@@ -24,10 +24,10 @@ export default function About() {
           <h4>Full-Stack Web Developer</h4>
           <div className='social-media-links'>
             <a href="https://github.com/spomberg" target="_blank" rel="noreferrer">
-              <GitHub className='icon'/>
+              <GitHub id='github-icon' className='icon'/>
             </a>
             <a href='https://linkedin.com/in/marcos-spomberg' target="_blank" rel="noreferrer">
-              <LinkedIn className='icon'/>
+              <LinkedIn id='linkedin-icon' className='icon'/>
             </a>
           </div>
           <span>
