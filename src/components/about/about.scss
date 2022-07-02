@@ -20,6 +20,7 @@
     border: none;
     
     .sidebar {
+      overflow: hidden;
       display: flex;
       padding: 1.5%;
       flex-wrap: wrap;
@@ -33,12 +34,14 @@
         color: white;
         text-align: center;
         margin-bottom: 1rem;
+        overflow: hidden;
       }
 
       h4 {
         color: white;
         text-align: center;
         margin-top: 1rem;
+        overflow: hidden;
       }
 
       .social-media-links {
@@ -46,6 +49,7 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        overflow: hidden;
         
         #linkedin-icon {
           font-size: 2.5rem;
@@ -62,6 +66,10 @@
           margin-right: 0.5rem;
           margin-left: 0.5rem;
         }
+      }
+
+      span {
+        overflow: hidden;
       }
       
       img {
@@ -121,11 +129,11 @@
   @media screen and (max-width: 915px) {
     .card {
       .sidebar {
-        padding: 0.6%;
+        padding: 1%;
         width: 65%;
 
         h3 {
-          margin-bottom: 4%;
+          margin: 4%;
           font-size: 1.3rem;
         }
 
@@ -136,6 +144,11 @@
         h4 {
           font-size: 1rem;
           margin: 3%;
+        }
+
+        span {
+          margin: 1%;
+          margin-top: 5%;
         }
       }
 
@@ -157,6 +170,24 @@
 
     .down-arrow {
       @include arrow(-102%);
+    }
+  }
+
+  @media screen and (max-width: 844px) {
+    .card {
+      width: 96%;
+      height: 95%;
+
+      .sidebar {
+        width: 50%;
+        flex-wrap: nowrap;
+      }
+
+      .card-body {
+        font-size: 0.8rem;
+        padding: 0;
+        margin: 1%;
+      }
     }
   }
 }
