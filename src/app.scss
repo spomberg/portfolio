@@ -18,5 +18,10 @@
       height: calc(100vh - 70px);
       scroll-snap-align: start;
     }
+    
+    @media screen and (max-width: 414px) {
+      top: 50px;
+    }
   }
+
 }
