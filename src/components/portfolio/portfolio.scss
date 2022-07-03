@@ -21,13 +21,16 @@
   ul {
     display: flex;
     flex-direction: row;
+    height: 80%;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 0;
     overflow: hidden;
 
     li {
       display: flex;
-      width: 28%;
+      width: 25%;
+      height: 45%;
       margin: 1%;
       border-radius: 2%;
       align-items: center;
