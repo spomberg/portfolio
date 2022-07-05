@@ -25,6 +25,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 0;
+    padding: 0;
     overflow: hidden;
 
     li {
@@ -55,6 +56,22 @@
     ul {
       li {
         width: 25%;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .up-arrow {
+      @include arrow(-104.5%);
+    }
+
+    ul {
+      width: 90%;
+      margin-top: 3%;
+
+      li {
+        height: 30%;
+        width: 30%;
       }
     }
   }
