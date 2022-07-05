@@ -70,8 +70,9 @@
         .description {
           display: flex;
           flex-direction: column;
-  
+          
           span {
+            text-align: justify;
             margin-bottom: 1%;
             padding: 0.5%;
           }
@@ -145,4 +146,18 @@
     margin-left: 1%;
     margin-bottom: 1%;
    } 
+}
+
+@media screen and (max-width: 1024px) {
+  .modal-body {
+    .card {
+      height: auto;
+    }
+
+    .description {
+      span {
+        margin-left: 0;
+      }
+    }
+  }
 }
