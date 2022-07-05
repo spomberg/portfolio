@@ -29,6 +29,11 @@ $introColor: crimson;
     opacity: 100%;
   }
 
+  @media screen and (max-width: 896px) {
+    left: 48%;
+    font-size: 2rem;
+  }
+
   @media screen and (max-width: 412px) {
     left: 44%;
   }
