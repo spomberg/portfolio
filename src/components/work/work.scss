@@ -45,6 +45,19 @@
     }
   }
 
+  @media screen and (max-width: 414px) {
+    align-items: flex-start;
+
+    h3 {
+      color: black;
+      z-index: 1;
+      font-size: x-large;
+      bottom: 30%;
+      font-weight: 600;
+      text-shadow: 0.1em 0.01em white;
+    }
+  }
+
   @media screen and (max-width: 1500px) {
     .modal-dialog {
       display: flex;
