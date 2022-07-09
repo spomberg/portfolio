@@ -1,6 +1,8 @@
 # Personal Web-Developer Portfolio
 
-Fully responsive portfolio built with React, Sass and Bootstrap to showcase past web-dev projects. Currently deployed and hosted at [spomberg.com](http://spomberg.com).
+Fully responsive portfolio built with React, Sass and Bootstrap to showcase past web-dev projects. 
+
+Currently deployed and hosted at [spomberg.com](http://spomberg.com).
 
 ### Dependencies
 - Material UI Icons
