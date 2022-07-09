@@ -174,3 +174,11 @@
     }
   }
 }
+
+@media screen and (max-height: 900px) {
+  .modal-body {
+    .card {
+      max-height: 24rem;
+    }  
+  } 
+}
