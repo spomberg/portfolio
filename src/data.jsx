@@ -6,6 +6,7 @@ import sql from '../src/assets/images/sql.png';
 import ruby from '../src/assets/images/ruby-on-rails.png';
 import node from '../src/assets/images/nodejs.png';
 import css from '../src/assets/images/css.png';
+import mongoDb from '../src/assets/images/mongodb.svg';
 import bootstrap from '../src/assets/images/bootstrap.png';
 
 export const aboutMe = {
@@ -27,6 +28,16 @@ export const portfolio = [
   },
   {
     id: 2,
+    title: "My Movie List",
+    description: "Full-stack app for users to create, edit and share movie lists with their friends.",
+    img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1660601973/portfolio/My_Movie_List_qz8hnm.png",
+    gif: "https://res.cloudinary.com/djv3yhbok/image/upload/v1660180086/portfolio/ezgif-1-eb722a5992_azybbb.webp",
+    link: "https://github.com/spomberg/my-movie-list",
+    siteUrl: "https://mymovielist.ca",
+    stacks: [ruby, mongoDb, react, sass, html, ]
+  },
+  {
+    id: 3,
     title: "QuizApp",
     description: "An application to create and share quizzes built with JavaScript, HTML5, Node, Express.",
     img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1655950756/portfolio/quiz_attempt_tklaqb.png",
@@ -35,7 +46,7 @@ export const portfolio = [
     stacks: [javascript, html, sass, sql, node]
   },
   {
-    id: 3,
+    id: 4,
     title: "TinyApp",
     description: "Full-stack web application built with Node and Express that allows users to shorten long URLs (à la bit.ly).",
     img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656024969/portfolio/shortURL-page_nnm0ch.png",
@@ -44,7 +55,7 @@ export const portfolio = [
     stacks: [javascript, html, bootstrap, node]
   },
   {
-    id: 4,
+    id: 5,
     title: "Scheduler",
     description: "Single-page app built with React that allows students to book interviews.",
     img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656024779/portfolio/book_interview_gkwfxq.png",
@@ -53,21 +64,12 @@ export const portfolio = [
     stacks: [react, javascript]
   },
   {
-    id: 5,
+    id: 6,
     title: "Jungle",
     description: "A mini e-commerce application built with Ruby on Rails.",
     img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656035197/portfolio/FireShot_Capture_047_-_Jungle_-_localhost_fllw0k.png",
     gif: "https://res.cloudinary.com/djv3yhbok/image/upload/q_auto/v1656035534/portfolio/Recording_2022-06-23_at_21.50.28_t5ckl7.webp",
     link: "https://github.com/spomberg/jungle-rails",
     stacks: [ruby, html, css]
-  },
-  {
-    id: 6,
-    title: "LightBnB",
-    description: "A simple AirBnB clone created to get comfortable with databases and SQL.",
-    img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656024869/portfolio/main-page_k5d50s.png",
-    gif: "https://res.cloudinary.com/djv3yhbok/image/upload/q_auto/v1656538299/portfolio/lightbnb_fxfbv1.webp",
-    link: "https://github.com/spomberg/LightBnB",
-    stacks: [javascript, sql]
   }
 ]
