@@ -3,7 +3,7 @@ import Modal from "react-bootstrap/Modal";
 import Card from "react-bootstrap/Card";
 import ProgressiveImage from "react-progressive-graceful-image";
 import spinner from "../../assets/images/spinner.svg";
-import { GitHub } from "@material-ui/icons";
+import { GitHub, Public } from "@material-ui/icons";
 
 export default function Work(props) {
   const [show, setShow] = useState(false);
@@ -38,9 +38,14 @@ export default function Work(props) {
             </Card>
             <div className="description">
               <span>{props.description}</span>
-              <a href={props.link} target="_blank" rel="noreferrer">
-                <GitHub className="gh-icon"/>View repository
-              </a>
+              <div className="links">
+                <a href={props.link} target="_blank" rel="noreferrer">
+                  <GitHub className="icon"/>View repository
+                </a>
+                {props.siteUrl && (<a href={props.siteUrl} target="_blank" rel="noreferrer">
+                  <Public className="icon"/>View deployed app
+                </a>)}
+              </div>
             </div>
           </Modal.Body>
           <Modal.Footer>
