@@ -7,6 +7,7 @@ import ruby from '../src/assets/images/ruby-on-rails.png';
 import node from '../src/assets/images/nodejs.png';
 import css from '../src/assets/images/css.png';
 import mongoDb from '../src/assets/images/mongodb.svg';
+import materialUi from '../src/assets/images/material-ui.svg';
 import bootstrap from '../src/assets/images/bootstrap.png';
 
 export const aboutMe = {
@@ -29,12 +30,12 @@ export const portfolio = [
   {
     id: 2,
     title: "My Movie List",
-    description: "Full-stack app for users to create, edit and share movie lists with their friends.",
+    description: "Full-stack app for users to create, edit and share movie lists with their friends. Built with React, Ruby on Rails, MongoDB and the TMDB API.",
     img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1660601973/portfolio/My_Movie_List_qz8hnm.png",
     gif: "https://res.cloudinary.com/djv3yhbok/image/upload/v1660180086/portfolio/ezgif-1-eb722a5992_azybbb.webp",
     link: "https://github.com/spomberg/my-movie-list",
     siteUrl: "https://mymovielist.ca",
-    stacks: [ruby, mongoDb, react, sass, html, ]
+    stacks: [ruby, mongoDb, react, sass, html, materialUi ]
   },
   {
     id: 3,
