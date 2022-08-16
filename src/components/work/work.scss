@@ -131,15 +131,26 @@
     margin-left: 0.5%;
   }
 
-  a {
+  .links {
     display: flex;
     align-items: center;
-    margin-top: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    justify-content: center;
     margin-left: 0.5%;
+    
+    a {
+      display: flex;
+      align-items: center;
+      width: 20%;
+      text-decoration: none;
+      text-align: center;
+      align-content: center;
 
-    .gh-icon {
-      color: black;
-      margin-right: 0.4%;
+      .icon {
+        color: black;
+        margin-right: 3%;
+      }
     }
   }
 }
