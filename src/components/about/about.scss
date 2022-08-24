@@ -192,10 +192,11 @@
   }
 
   // VERTICAL SCREENS
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 425px) {
     .card {
       flex-direction: column;
       width: 90%;
+      height: 90%;
 
       .sidebar {
         width: 100%;
@@ -222,6 +223,12 @@
 
         span {
           margin-top: 1%;
+        }
+
+        .skill-icons {
+          img {
+            width: 10%;
+          }
         }
       }
 
