@@ -176,9 +176,15 @@
       height: auto;
     }
 
+    img {
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+
     .description {
       span {
         margin-left: 0;
+        margin-top: 5%;
       }
     }
   }
@@ -188,6 +194,16 @@
   .modal-body {
     .card {
       max-height: 24rem;
-    }  
+    }
+
+    .links {
+      margin-top: 5%;
+      margin-bottom: 5%;
+
+      a {
+        width: 45%;
+      }
+    }
+    
   } 
 }
