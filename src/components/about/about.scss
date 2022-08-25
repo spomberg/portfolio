@@ -196,7 +196,7 @@
     .card {
       flex-direction: column;
       width: 90%;
-      height: 90%;
+      height: 85%;
 
       .sidebar {
         width: 100%;
@@ -236,9 +236,7 @@
         margin: 3%;
 
         .skill-icons {
-          display: flex;
-          padding: 0;
-          padding-bottom: 5%
+          display: none;
         }
       }
     }
