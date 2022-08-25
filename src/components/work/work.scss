@@ -125,16 +125,16 @@
     align-self: center;
   }
 
-  span {
-    margin-top: 1.5%;
+  .description {
+    margin-top: 0.5%;
     margin-bottom: 1%;
-    margin-left: 0.5%;
+    text-align: center;
   }
 
   .links {
     display: flex;
     align-items: center;
-    margin-top: 1%;
+    margin-top: 2%;
     margin-bottom: 1%;
     justify-content: center;
     margin-left: 0.5%;
@@ -190,7 +190,7 @@
   }
 }
 
-@media screen and (max-height: 900px) {
+@media screen and (max-width: 900px) {
   .modal-body {
     .card {
       max-height: 24rem;
