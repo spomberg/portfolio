@@ -9,7 +9,8 @@ import sass from '../../assets/images/sass.png';
 import react from '../../assets/images/react-js.png';
 import sql from '../../assets/images/sql.png';
 import ruby from '../../assets/images/ruby-on-rails.png';
-import node from '../../assets/images/nodejs.png'
+import node from '../../assets/images/nodejs.png';
+import typescript from '../../assets/images/typescript.png';
 
 export default function About() {
   return (
@@ -41,11 +42,11 @@ export default function About() {
           <Card.Text>{aboutMe.skills}</Card.Text>
           <div className="skill-icons">
             <img src={javascript} alt="javascript icon" />
+            <img src={typescript} alt="typescript icon" />
             <img src={node} alt="node icon" />
             <img src={react} alt="react icon" />
             <img src={sql} alt="sql icon" />
             <img src={html} alt="html icon" />
-            <img src={sass} alt="sass icon" />
             <img src={ruby} alt="ruby icon" />
           </div>
         </Card.Body>
