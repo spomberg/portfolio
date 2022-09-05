@@ -39,6 +39,16 @@ export const portfolio = [
   },
   {
     id: 3,
+    title: "Password Generator App",
+    description: "Responsive single-page app that generates randomized passwords built with React.",
+    img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1662384770/portfolio/Password_Generator_App_kkedzj.png",
+    gif: "https://res.cloudinary.com/djv3yhbok/image/upload/v1662296607/portfolio/password-generator_kocesv.gif",
+    link: "https://github.com/spomberg/password-generator-app",
+    siteUrl: "https://password-generator.spomberg.com",
+    stacks: [react, javascript, sass, materialUi]
+  },
+  {
+    id: 4,
     title: "QuizApp",
     description: "An application to create and share quizzes built with JavaScript, HTML5, Node, Express.",
     img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1655950756/portfolio/quiz_attempt_tklaqb.png",
@@ -47,22 +57,13 @@ export const portfolio = [
     stacks: [javascript, html, sass, sql, node]
   },
   {
-    id: 4,
+    id: 5,
     title: "TinyApp",
     description: "Full-stack web application built with Node and Express that allows users to shorten long URLs (à la bit.ly).",
     img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656024969/portfolio/shortURL-page_nnm0ch.png",
     gif: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656539121/portfolio/tinyapp_ltope1.webp",
     link: "https://github.com/spomberg/tinyapp",
     stacks: [javascript, html, bootstrap, node]
-  },
-  {
-    id: 5,
-    title: "Scheduler",
-    description: "Single-page app built with React that allows students to book interviews.",
-    img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656024779/portfolio/book_interview_gkwfxq.png",
-    gif: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656537416/portfolio/scheduler_mkquew.webp",
-    link: "https://github.com/spomberg/scheduler",
-    stacks: [react, javascript]
   },
   {
     id: 6,
