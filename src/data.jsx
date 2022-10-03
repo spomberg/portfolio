@@ -5,9 +5,9 @@ import react from '../src/assets/images/react-js.png';
 import sql from '../src/assets/images/sql.png';
 import ruby from '../src/assets/images/ruby-on-rails.png';
 import node from '../src/assets/images/nodejs.png';
-import css from '../src/assets/images/css.png';
 import mongoDb from '../src/assets/images/mongodb.svg';
 import materialUi from '../src/assets/images/material-ui.svg';
+import typescript from '../src/assets/images/typescript.png';
 import bootstrap from '../src/assets/images/bootstrap.png';
 
 export const aboutMe = {
@@ -39,6 +39,16 @@ export const portfolio = [
   },
   {
     id: 3,
+    title: "Memory Game",
+    description: "Responsive memory game app that can be played in either solo or multiplayer modes built with React and TypeScript.",
+    img: "https://github.com/spomberg/memory/blob/main/src/assets/images/memory-desktop-start-page.png?raw=true",
+    gif: "https://github.com/spomberg/memory/blob/main/src/assets/images/memory-desktop-demo.gif?raw=true",
+    link: "https://github.com/spomberg/memory",
+    siteUrl: "https://memory.spomberg.com",
+    stacks: [typescript, react, html, sass, bootstrap]
+  },
+  {
+    id: 4,
     title: "Password Generator App",
     description: "Responsive single-page app that generates randomized passwords based on the selected inclusion options. Built with React.",
     img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1662384770/portfolio/Password_Generator_App_kkedzj.png",
@@ -48,7 +58,7 @@ export const portfolio = [
     stacks: [react, javascript, sass, materialUi]
   },
   {
-    id: 4,
+    id: 5,
     title: "QuizApp",
     description: "An application to create and share quizzes built with JavaScript, HTML5, Node, Express.",
     img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1655950756/portfolio/quiz_attempt_tklaqb.png",
@@ -57,21 +67,12 @@ export const portfolio = [
     stacks: [javascript, html, sass, sql, node]
   },
   {
-    id: 5,
+    id: 6,
     title: "TinyApp",
     description: "Full-stack web application built with Node and Express that allows users to shorten long URLs (à la bit.ly).",
     img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656024969/portfolio/shortURL-page_nnm0ch.png",
     gif: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656539121/portfolio/tinyapp_ltope1.webp",
     link: "https://github.com/spomberg/tinyapp",
     stacks: [javascript, html, bootstrap, node]
-  },
-  {
-    id: 6,
-    title: "Jungle",
-    description: "A mini e-commerce application built with Ruby on Rails.",
-    img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656035197/portfolio/FireShot_Capture_047_-_Jungle_-_localhost_fllw0k.png",
-    gif: "https://res.cloudinary.com/djv3yhbok/image/upload/q_auto/v1656035534/portfolio/Recording_2022-06-23_at_21.50.28_t5ckl7.webp",
-    link: "https://github.com/spomberg/jungle-rails",
-    stacks: [ruby, html, css]
   }
 ]
