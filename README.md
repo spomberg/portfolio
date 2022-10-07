@@ -19,7 +19,10 @@ Currently deployed and hosted at [spomberg.com](http://spomberg.com).
 !["Work Modal Desktop"](https://github.com/spomberg/react-portfolio/blob/master/src/assets/images/modal-desktop.png?raw=true)
 
 ### Screenshots - Mobile Vertical
-!["Intro Page Mobile Vertical"](https://github.com/spomberg/react-portfolio/blob/master/src/assets/images/main-page-phone-vertical.png?raw=true)
-!["About Page Mobile Vertical"](https://github.com/spomberg/react-portfolio/blob/master/src/assets/images/about-page-phone-vertical.png?raw=true)
-!["Portfolio Page Mobile Vertical"](https://github.com/spomberg/react-portfolio/blob/master/src/assets/images/portfolio-phone-vertical.png?raw=true)
-!["Work Modal Mobile Vertical"](https://github.com/spomberg/react-portfolio/blob/master/src/assets/images/modal-phone-vertical.png?raw=true)
+<img src="https://github.com/spomberg/react-portfolio/blob/master/src/assets/images/main-page-phone-vertical.png?raw=true" width="200" height="400" />
+
+<img src="https://github.com/spomberg/react-portfolio/blob/master/src/assets/images/about-page-phone-vertical.png?raw=true" width="200" height="400" />
+
+<img src="https://github.com/spomberg/react-portfolio/blob/master/src/assets/images/portfolio-phone-vertical.png?raw=true" width="200" height="400" />
+
+<img src="https://github.com/spomberg/react-portfolio/blob/master/src/assets/images/modal-phone-vertical.png?raw=true" width="200" height="400" />
