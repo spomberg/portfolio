@@ -12,7 +12,7 @@ import bootstrap from '../src/assets/images/bootstrap.png';
 
 export const aboutMe = {
   text: `I'm a junior full-stack web developer and a recent graduate of Lighthouse Labs. 
-  \nThroughout my career, I have honed my people skills in other industries where I successfully lead projects in different areas and headed a 10 people team for 5 years. I also trained hundreds of people, as passing down knowledge (while continuously learning) is a passion of mine. 
+  \nThroughout my career, I have honed my people skills in other industries where I successfully led projects in different areas and headed a 10 people team for 5 years. I also trained hundreds of people, as passing down knowledge (while continuously learning) is a passion of mine. 
   \nMy goal is to now use my skills to make meaningful connections, exchange knowledge and help others while working as a Web Developer.`,
   skills: "JavaScript, TypeScript, HTML5, CSS, SASS, React.JS, Node.JS, Ruby/Rails, JQuery, Ajax, PostgreSQL, MongoDB, Git, Bootstrap, Jest, Cypress, Storybook"
 }
