@@ -37,8 +37,8 @@ Aside from my passion for coding, my abilities also extend to communication and 
 
 My goal is to now use my skills to make meaningful connections, exchange knowledge and help others while working as a Web Developer.
 
-- Portfolio - spomberg.com
-- LinkedIn - /marcos-spomberg
+- Portfolio - [spomberg.com](https://spomberg.com)
+- LinkedIn - [/marcos-spomberg](https://linkedin.com/in/marcos-spomberg)
 
 ## Other projects
 
