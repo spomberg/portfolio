@@ -92,6 +92,10 @@
     .card-title {
       margin-top: 1.5%;
     }
+
+    .skills-title {
+      margin-top: 4%;
+    }
     
     .skill-icons {
       display: flex;
@@ -99,7 +103,7 @@
       justify-content: space-around;
       
       img {
-        width: 12%;
+        width: 9%;
         object-fit: contain;
       }
     }
@@ -117,7 +121,7 @@
   @media screen and (max-width: 1500px) {
     .card {
       width: 85%;
-      height: 80%;
+      height: 85%;
     }
 
     .down-arrow {
