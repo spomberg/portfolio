@@ -37,7 +37,7 @@ export default function About() {
         <Card.Body>
           <Card.Title>About Me</Card.Title>
           <Card.Text>{aboutMe.text}</Card.Text>
-          <Card.Title>Skills</Card.Title>
+          <Card.Title className='skills-title'>Skills</Card.Title>
           <Card.Text>{aboutMe.skills}</Card.Text>
           <div className="skill-icons">
             <img src={typescript} alt="typescript icon" />
