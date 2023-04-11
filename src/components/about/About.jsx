@@ -6,9 +6,10 @@ import photo from "../../assets/images/photo-bg.webp";
 import html from '../../assets/images/html5-icon.png';
 import react from '../../assets/images/react-js.png';
 import sql from '../../assets/images/sql.png';
-import ruby from '../../assets/images/ruby-on-rails.png';
 import node from '../../assets/images/nodejs.png';
 import typescript from '../../assets/images/typescript.png';
+import aws from '../../assets/images/amazon-web-services-logo.png';
+import mongoDB from '../../assets/images/mongodb.svg';
 
 export default function About() {
   return (
@@ -41,10 +42,11 @@ export default function About() {
           <div className="skill-icons">
             <img src={typescript} alt="typescript icon" />
             <img src={react} alt="react icon" />
+            <img src={aws} alt="aws icon" />
             <img src={node} alt="node icon" />
             <img src={sql} alt="sql icon" />
+            <img src={mongoDB} alt="mongoDB icon" />
             <img src={html} alt="html icon" />
-            <img src={ruby} alt="ruby icon" />
           </div>
         </Card.Body>
       </Card>
