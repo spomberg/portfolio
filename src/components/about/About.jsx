@@ -3,9 +3,7 @@ import { aboutMe } from '../../data';
 import { GitHub, LinkedIn, KeyboardArrowDown, KeyboardArrowUp, LocationOn } from '@material-ui/icons';
 import Card from "react-bootstrap/Card";
 import photo from "../../assets/images/photo-bg.webp";
-import javascript from '../../assets/images/javascript-icon.png';
 import html from '../../assets/images/html5-icon.png';
-import sass from '../../assets/images/sass.png';
 import react from '../../assets/images/react-js.png';
 import sql from '../../assets/images/sql.png';
 import ruby from '../../assets/images/ruby-on-rails.png';
@@ -41,10 +39,9 @@ export default function About() {
           <Card.Title>Skills</Card.Title>
           <Card.Text>{aboutMe.skills}</Card.Text>
           <div className="skill-icons">
-            <img src={javascript} alt="javascript icon" />
             <img src={typescript} alt="typescript icon" />
-            <img src={node} alt="node icon" />
             <img src={react} alt="react icon" />
+            <img src={node} alt="node icon" />
             <img src={sql} alt="sql icon" />
             <img src={html} alt="html icon" />
             <img src={ruby} alt="ruby icon" />
