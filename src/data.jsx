@@ -14,7 +14,7 @@ export const aboutMe = {
   text: `Throughout my career, I have honed my people skills in other industries where I successfully led projects in different areas and headed a 10 people team for 5 years. I also trained hundreds of people, as passing down knowledge (while continuously learning) is a passion of mine. 
   \nAside from my passion for coding, my abilities also extend to communication and collaboration with proficiency in interpersonal skills. My strongest suit is that I can bring these two skill sets together in a unique way. 
   \nMy goal is to now use my skills to make meaningful connections, exchange knowledge and help others while working as a Web Developer.`,
-  skills: "JavaScript, TypeScript, HTML5, CSS, SASS, React.JS, Node.JS, Ruby/Rails, JQuery, Ajax, PostgreSQL, MongoDB, Git, Bootstrap, Jest, Cypress, Storybook"
+  skills: "Front-End · React, Redux, HTML, CSS, Sass, JQuery, Ajax, Bootstrap\nBack-End · JavaScript, TypeScript, Node.JS, Expres.JS, Ruby on Rails\nDatabase · MySQL, PostgreSQL, MongoDB\nTesting · Jest, Cypress, Storybook\nCloud Computing · AWS, Lambda, DynamoDB"
 }
 
 export const portfolio = [
