@@ -52,7 +52,7 @@ export const portfolio = [
     id: 4,
     title: "Password Generator App",
     description: "Responsive single-page app that generates randomized passwords based on the selected inclusion options. Built with React.",
-    img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1662384770/portfolio/Password_Generator_App_kkedzj.png",
+    img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1681333238/Password_Generator_App_-_password-generator.spomberg.com_y6ounh.png",
     gif: "https://res.cloudinary.com/djv3yhbok/image/upload/v1662296607/portfolio/password-generator_kocesv.gif",
     link: "https://github.com/spomberg/password-generator-app",
     siteUrl: "https://password-generator.spomberg.com",
