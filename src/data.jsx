@@ -34,7 +34,7 @@ export const portfolio = [
     title: "Trash2Treasure",
     description: "Platform for users to list items (treasures) that are being left for donation in public spaces. Created with React and Ruby on Rails.",
     img: "https://res.cloudinary.com/djv3yhbok/image/upload/v1656024604/portfolio/search-results1_nfgzdg.png",
-    gif: "https://res.cloudinary.com/djv3yhbok/video/upload/q_auto:eco/v1681253261/Book_Bazaar_-_10_April_2023_uuwgre.webm",
+    gif: "https://res.cloudinary.com/djv3yhbok/image/upload/q_auto:eco/v1656463840/portfolio/t2t-1_bzjb0o.gif",
     link: "https://github.com/spomberg/trash2treasure",
     stacks: [react, sass, ruby]
   },
@@ -62,8 +62,8 @@ export const portfolio = [
     id: 5,
     title: "Book Bazaar",
     description: "Virtual bookstore where users can add and buy books. Running on several AWS services.",
-    img: "https://res.cloudinary.com/djv3yhbok/image/upload/q_auto:good/v1681253783/Book_Bazaar_screenshot_nreqcl.png",
-    gif: "https://res.cloudinary.com/djv3yhbok/video/upload/q_auto:good/v1681253261/Book_Bazaar_-_10_April_2023_uuwgre.webm",
+    img: "https://res.cloudinary.com/djv3yhbok/image/upload/q_auto:eco/v1681253783/Book_Bazaar_screenshot_nreqcl.png",
+    gif: "https://res.cloudinary.com/djv3yhbok/video/upload/q_100/v1681253261/Book_Bazaar_-_10_April_2023_uuwgre.gif",
     siteUrl: "http://mybookstore-20230408214730-hostingbucket-dev.s3-website-us-east-1.amazonaws.com",
     stacks: [aws, react, javascript]
   },
