@@ -39,9 +39,9 @@ export default function Work(props) {
             <div className="description">
               <span>{props.description}</span>
               <div className="links">
-                <a href={props.link} target="_blank" rel="noreferrer">
+                {props.link && (<a href={props.link} target="_blank" rel="noreferrer">
                   <GitHub className="icon"/>View repository
-                </a>
+                </a>)}
                 {props.siteUrl && (<a href={props.siteUrl} target="_blank" rel="noreferrer">
                   <Public className="icon"/>View deployed app
                 </a>)}
